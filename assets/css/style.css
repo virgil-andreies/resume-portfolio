@@ -1,0 +1,121 @@
+.header-intro {
+    display:table;
+    width:100%;
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('../images/background.jpg') no-repeat center center;
+    background-size: cover;
+    background-position:center top;
+    height:400px;
+}
+
+/* theme-bg-primary */
+
+/* .section-map {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+}
+
+.section-map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+} */
+
+.box-number {
+    text-align: center;
+  }
+  
+.box-number .number {
+    font-weight: 700;
+    font-size: 50px;
+    color: rgba(218, 209, 84, 0.89);
+    font-family: "Poppins", sans-serif;
+    display: block;
+}
+
+.box-number .title {
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #ebee55;
+}
+
+.profile-title {
+    font-size: 28px;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    margin-bottom: 30px;
+}
+
+.section-statistic-cover {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+ul.list-reset {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.section-title {
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-size: 24px;
+    text-align: center;
+    color: rgb(187, 175, 5);
+}
+
+.section-education {
+    box-shadow: 0 1px 4px 0 rgba(223, 220, 220, 0.14);
+    padding: 45px;
+    background: #143652;
+    margin-bottom: 45px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
+    display: block;
+}
+
+.section-education .item-inner {
+    padding: 0 30px;
+    background: #ffffff;
+    border-radius: 0.4rem;
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+    padding-top: 0.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.section-education .degree {
+    font-size: 20px;
+    color: rgb(62, 77, 97);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.section-education .education-body {
+    font-weight: 500;
+    margin-bottom: 0px;
+    font-size: 16px;
+    font-weight: 300;
+    color: rgb(75, 84, 122);
+}
+
+.section-education .time {
+    color: #4b5a70;
+    margin-bottom: 15px;
+}
+
+.section-education .desc {
+    color: rgb(75, 84, 122);
+}
+
+.section-education-item {
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+}
