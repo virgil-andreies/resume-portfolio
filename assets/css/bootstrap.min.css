@@ -8953,7 +8953,8 @@ a.theme-btn-on-bg:active,
 }
 
 .profile-image {
-    max-width: 240px
+    max-width: 250px;
+    height: 350px;
 }
 
 .section-title {
