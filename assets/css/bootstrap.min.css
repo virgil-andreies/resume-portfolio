@@ -8767,13 +8767,13 @@ body {
 
 #topcontrol {
     transition: all 0.4s ease-in-out;
-    background: #58677c;
+    background: #58677c36;
     color: #fff;
     text-align: center;
     display: inline-block;
     z-index: 30;
-    width: 36px;
-    height: 36px;
+    width: 48px;
+    height: 48px;
     border-radius: .25rem;
     padding-top: 6px;
     font-weight: 300
@@ -8786,7 +8786,7 @@ body {
 }
 
 #topcontrol:hover {
-    background: #434e5e;
+    background: #335fa1;
     color: #fff
 }
 
