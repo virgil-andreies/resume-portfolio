@@ -23,12 +23,25 @@
 <body>
 
 	<header class="header">
-
+		<!-- <div class="page-nav-space-holder d-none d-md-block">
+            <div id="page-nav-wrapper" class="page-nav-wrapper text-center">
+                <div class="container">
+                    <ul id="page-nav" class="nav page-nav list-inline">
+                        <li class="nav-item"><a class="scrollto nav-link" href="#experiences-section">Experiences</a></li>
+                        <li class="nav-item"><a class="scrollto nav-link" href="#education-section">Education</a></li>
+                        <li class="nav-item"><a class="scrollto nav-link" href="#skills-section">Skills</a></li>
+                        <li class="nav-item"><a class="scrollto nav-link" href="#testimonials-section">Testimonials</a></li>
+                        <li class="nav-item"><a class="scrollto nav-link" href="#portfolio-section">Portfolio</a></li>
+                        <li class="nav-item"><a class="scrollto nav-link" href="#contact-section">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div> -->
 		<div class="top-bar theme-bg-primary-darken">
 
 			<div class="container-fluid">
 
-				<nav class="navbar navbar-expand-lg navbar-dark position-relative">
+				<nav class="navbar navbar-expand-lg navbar-expand-md navbar-expand-sm navbar-dark position-relative">
 
 					<!-- 
 					<ul class="social-list list-inline mb-0">
@@ -44,28 +57,29 @@
 						<span class="navbar-toggler-icon"></span>
 					</button>
 
-					<div class="collapse navbar-collapse text-uppercase" id="navigation">
+					<div id="navigation" class="navigation text-uppercase text-center">
+							<!-- <div id="page-nav-wrapper" class="collapse navbar-collapse text-uppercase"> -->
 						<ul class="navbar-nav mx-lg-auto">
 							<li class="nav-item active mr-lg-3">
-								<a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+								<a class="scrollto nav-link" href="#section-about">About <span class="sr-only">(current)</span></a>
 							</li>
 							<li class="nav-item mr-lg-3">
-								<a class="nav-link" href="#">Skills</a>
+								<a class="scrollto nav-link" href="#skills-level-section">Skills</a>
 							</li>
 							<li class="nav-item mr-lg-3">
-								<a class="nav-link" href="#">Experience</a>
+								<a class="scrollto nav-link" href="#section-experience">Experience</a>
 							</li>
 							<li class="nav-item mr-lg-3">
-								<a class="nav-link" href="#">Education</a>
+								<a class="scrollto nav-link" href="#section-education">Education</a>
 							</li>
 							<li class="nav-item mr-lg-3">
-								<a class="nav-link" href="#">Projects</a>
+								<a class="scrollto nav-link" href="#section-projects">Projects</a>
 							</li>
 							<li class="nav-item mr-lg-3">
-								<a class="nav-link" href="#">Resume</a>
+								<a class="scrollto nav-link" href="#">Resume</a>
 							</li>
 							<li class="nav-item mr-lg-3">
-								<a class="nav-link" href="#">Contact</a>
+								<a class="scrollto nav-link" href="#">Contact</a>
 							</li>
 						</ul>
 						<span id="slide-line" style="width: 61.9063px; left: 525.344px;"></span>
@@ -78,7 +92,7 @@
 		</div>
 		<!--//top-bar-->
 
-		<div class="header-intro text-white py-5">
+		<div id="section-about" class="header-intro text-white py-5">
 			<div class="container">
 				<div class="profile-teaser media flex-column flex-md-row">
 					<img class="profile-image mb-3 mb-md-0 mr-md-5 ml-md-0 rounded mx-auto" src="assets/images/_profile.jpg" alt="">
@@ -109,7 +123,7 @@
 	</header>
 	<!--//header-->
 
-	<section id="skills-level-section section" class="skills-level-section section mx-auto py-5 text-center">
+	<section id="skills-level-section" class="skills-level-section section mx-auto py-5 text-center">
 		<h2 class="section-title">Professional Skills</h2>
 		<div class="top-skills">
 			<h3 class="subtitle">Top Skills</h3>
@@ -238,15 +252,15 @@
 				<div class="resume-skills-item">
 					<h4 class="resume-skills-cat font-weight-bold">Others</h4>
 					<ul class="list-inline">
-						<li class="list-inline-item"><span class="badge badge-light">DevOps</span></li>
-						<li class="list-inline-item"><span class="badge badge-light">Code Review</span></li>
+						<li class="list-inline-item"><span class="badge badge-info">DevOps</span></li>
+						<li class="list-inline-item"><span class="badge badge-primary">Code Review</span></li>
 						<li class="list-inline-item"><span class="badge badge-light">Git</span></li>
-						<li class="list-inline-item"><span class="badge badge-light">Unit Testing</span></li>
-						<li class="list-inline-item"><span class="badge badge-light">Wireframing</span></li>
-						<li class="list-inline-item"><span class="badge badge-light">Sketch</span></li>
+						<li class="list-inline-item"><span class="badge badge-danger">Unit Testing</span></li>
+						<li class="list-inline-item"><span class="badge badge-dark">Wireframing</span></li>
+						<li class="list-inline-item"><span class="badge badge-danger">Sketch</span></li>
 						<li class="list-inline-item"><span class="badge badge-light">Balsamiq</span></li>
-						<li class="list-inline-item"><span class="badge badge-light">WordPress</span></li>
-						<li class="list-inline-item"><span class="badge badge-light">Shopify</span></li>
+						<li class="list-inline-item"><span class="badge badge-primary">WordPress</span></li>
+						<li class="list-inline-item"><span class="badge badge-info">Shopify</span></li>
 					</ul>
 				</div>
 			</div>
@@ -346,7 +360,7 @@
 						<div class="skills-block-inner bg-white shadow-sm py-4 px-5 position-relative">
 							<h4 class="skills-cat text-center mb-3 mt-5">Others</h4>
 							<div class="skills-icon-holder position-absolute d-inline-block rounded-circle text-center">
-								<i class="fas fa-bars fa-2x fa-fw text-white text-center"></i>
+								<i class="fas fa-cogs fa-2x fa-fw text-white text-center"></i>
 							</div>
 							<ul class="skills-list list-unstyled text-secondary">
 								<li class="mb-2"><i class="fas fa-check mr-2 text-primary"></i> Python</li>
@@ -397,7 +411,7 @@
 	</section>
 	<!--//skills-section-->
 
-	<section class="section-experience section mx-auto py-5">
+	<section id="section-experience" class="section-experience section mx-auto py-5">
 		<h2 class="section-title font-weight-bold text-center mb-3">Professional Experience</h2>
 		<div class="experience-timeline">
 			<div class="experience-item">
@@ -533,7 +547,7 @@
 	</section>
 
 	<!-- Statistics -->
-	<div class="section section-statistic section-statistic-cover" style="background: url('assets/images/time.jpg') center center / cover fixed no-repeat;">
+	<div id="section-statistics" class="section section-statistic section-statistic-cover" style="background: url('assets/images/time.jpg') center center / cover fixed no-repeat;">
 		<div class="bg-overlay"></div>
 		<div class="container">
 			<div class="section-inner">
@@ -568,7 +582,7 @@
 	</div>
 
 	<!-- Projects -->
-	<section class="section-featured-projects py-5">
+	<section id="section-projects" class="section-featured-projects py-5">
 		<div class="container">
 			<h3 class="section-title font-weight-bold text-center mb-5">Featured Projects</h3>
 
@@ -935,15 +949,16 @@
 	<!-- Javascript plugins -->
 	<script type="text/javascript" src="assets/plugins/jquery-3.3.1.min.js"></script>
 	<script type="text/javascript" src="assets/plugins/popper.min.js"></script>
-	<script type="text/javascript" src="assets/plugins/jquery/jquery.easypiechart.min.js"></script>
 	<script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="assets/plugins/jquery/jquery-ui.min.js"></script>
 	<script type="text/javascript" src="assets/plugins/back-to-top.js"></script>
+	<script type="text/javascript" src="assets/plugins/jquery/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="assets/plugins/jquery/jquery.scrollTo.min.js"></script>
+	<script type="text/javascript" src="assets/plugins/jquery/jquery.easypiechart.min.js"></script>
 
 	<!-- Custom JS -->
 	<script type="text/javascript" src="assets/js/profile.js"></script>
 
-	<div id="topcontrol" title="Scroll Back to Top" style="position: fixed; bottom: 5px; right: 5px; opacity: 0; cursor: pointer;">
+	<div id="topcontrol" title="Scroll Back to Top" style="position: fixed; bottom: 5px; right: 5px; opacity: 1; cursor: pointer;">
 		<i class="fas fa-angle-up fa-2x"></i>
 	</div>
 </body>
