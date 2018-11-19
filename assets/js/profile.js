@@ -51,5 +51,14 @@ $(document).ready(function() {
 			$(this.el).find('span').text(Math.round(percent));
 		}
 	});  
-    
+	
+	// Progress Bar 
+	// made with jqueru ui
+	$(function() {
+		$('.progress-bar').each(function() {
+			var bar_value = $(this).attr('aria-valuenow') + '%';                
+			$(this).animate({ width: bar_value }, { duration: 3000, easing: 'linear' });
+		});
+	});
+
 });
