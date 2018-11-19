@@ -267,3 +267,74 @@ ul.list-reset {
     line-height: 110px;
 }
 
+.prog-bar {
+    background: #bfc1c5;
+    display: block;
+    height: 1.3rem;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #a6dcf5bb
+}
+
+.prog-bar span{
+    height: 1.3rem;
+    float: left;
+    background: #58677c;
+}
+
+.prog-bar-python{
+    width: 93%;
+    animation: prog-bar-python 3s;
+}
+
+.prog-bar-ruby{
+    width: 12%;
+    animation: prog-bar-ruby 3s;
+}
+
+.prog-bar-php{
+    width: 37%;
+    animation: prog-bar-php 3s;
+}
+
+.prog-bar-net{
+    width: 55%;
+    animation: prog-bar-net 3s;
+}
+
+@keyframes prog-bar-python {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 93%;
+    }
+}
+
+@keyframes prog-bar-ruby {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 12%;
+    }
+}
+
+@keyframes prog-bar-php {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 37%;
+    }
+}
+
+@keyframes prog-bar-net {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 55%;
+    }
+}

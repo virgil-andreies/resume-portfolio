@@ -57,7 +57,7 @@ $(document).ready(function() {
 	$(function() {
 		$('.progress-bar').each(function() {
 			var bar_value = $(this).attr('aria-valuenow') + '%';                
-			$(this).animate({ width: bar_value }, { duration: 3000, easing: 'linear' });
+			$(this).animate({ width: bar_value }, { duration: 1800, easing: 'linear' });
 		});
 	});
 
