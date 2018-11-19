@@ -23,13 +23,18 @@ $(document).ready(function () {
 		var scrollTop = $(this).scrollTop();
 		var topDistance = $('#navigation').offset().top;
 
+		// console.log(scrollTop);
+		// console.log(topDistance);
+
 		if ((topDistance) > scrollTop) {
 			$('#navigation').removeClass('fixed');
 			$('body').removeClass('sticky-page-nav');
+			console.log('removed');
 		}
 		else {
 			$('#navigation').addClass('fixed');
 			$('body').addClass('sticky-page-nav');
+			console.log('added');
 		}
 
 	});
