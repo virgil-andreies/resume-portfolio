@@ -370,3 +370,67 @@ ul.list-reset {
     background: rgb(30, 70, 95)
 } 
 
+/* ********************  Card flip  *********************** */
+.flip {
+    -webkit-perspective: 800;   
+            perspective: 800;
+    position: relative;
+    text-align: center;
+}
+
+.flip .card.flipped {
+    -webkit-transform: rotatey(-180deg);
+    transform: rotatey(-180deg);
+}
+
+.flip .card {
+    width: auto;
+    height: 320px;
+    -webkit-transform-style: preserve-3d;
+    -webkit-transition: 0.5s;
+    transform-style: preserve-3d;
+    transition: 0.5s;
+    background-color: #fff;
+    align-items: center;
+    background-color: #dbff77;
+}
+
+.flip .card .face {
+    -webkit-backface-visibility: hidden ;
+      backface-visibility: hidden ;
+     z-index: 2;
+}
+
+.flip .card .front {
+    padding-top: 10%;
+    position: absolute;
+    /* width: 320px;  */
+    align-content: center;
+    z-index: 1;
+}
+
+/* .flip .card .front img{
+    width: 270px;
+    height: 100%;
+}
+
+.flip .card .img {
+    position: relaitve;
+    width: 270px;
+    height: 178px;
+    z-index: 1;
+    border: 2px solid #000;
+} */
+
+.flip .card .back {
+    padding-top: 10%;
+    -webkit-transform: rotatey(-180deg);
+            transform: rotatey(-180deg);
+    position: absolute;
+    background-color: #f19304de;
+  }
+
+.front-inner{
+    margin: 20px !important;
+    /* width: 270px; */
+}
