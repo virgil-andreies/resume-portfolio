@@ -99,7 +99,7 @@ $(document).ready(function () {
 		});
 	});
 
-
+	// Card flip
 	$('.flip').hover(function () {
 		$(this).find('.card').toggleClass('flipped');
 	});
