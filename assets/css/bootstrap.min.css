@@ -619,8 +619,8 @@ pre code {
 
 .container-fluid {
     width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
+    /* padding-right: 15px;
+    padding-left: 15px; */
     margin-right: auto;
     margin-left: auto
 }
@@ -8928,7 +8928,7 @@ a.theme-btn-on-bg:active,
 }
 
 .navbar-dark .navbar-toggler-icon {
-    background: url("../images/bars.svg") no-repeat left top;
+    /* background: url("../images/bars.svg") no-repeat left top; */
     height: 20px;
     width: 24px
 }
