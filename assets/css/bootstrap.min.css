@@ -8863,13 +8863,13 @@ a.theme-btn-on-bg:active,
 }
 
 .social-list a {
-    width: 36px;
-    height: 36px;
-    padding-top: 7px;
+    width: 56px;
+    height: 56px;
+    padding-top: 13px;
     display: inline-block;
     text-align: center;
     border-radius: 50%;
-    transition: all 0.4s ease-in-out
+    transition: all 0.2s ease-in-out
 }
 
 @media screen and (prefers-reduced-motion: reduce) {
@@ -8879,7 +8879,8 @@ a.theme-btn-on-bg:active,
 }
 
 .social-list a:hover {
-    background: rgba(0, 0, 0, 0.2)
+    background: rgba(0, 0, 0, 0.2);
+    color: #dbff77 !important;
 }
 
 #navigation {
