@@ -619,8 +619,8 @@ pre code {
 
 .container-fluid {
     width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
+    /* padding-right: 15px;
+    padding-left: 15px; */
     margin-right: auto;
     margin-left: auto
 }
@@ -8807,12 +8807,12 @@ body {
 
 .link-on-bg,
 a.link-on-bg {
-    color: rgba(0, 0, 0, 0.5)
+    color: rgba(209, 255, 103, 0.904)
 }
 
 .link-on-bg:hover,
 a.link-on-bg:hover {
-    color: rgba(0, 0, 0, 0.6)
+    color: rgba(247, 162, 65, 0.849)
 }
 
 .presudo-hidden:before {
@@ -8928,7 +8928,7 @@ a.theme-btn-on-bg:active,
 }
 
 .navbar-dark .navbar-toggler-icon {
-    background: url("../images/bars.svg") no-repeat left top;
+    /* background: url("../images/bars.svg") no-repeat left top; */
     height: 20px;
     width: 24px
 }
