@@ -4321,7 +4321,8 @@ input[type="button"].btn-block {
 }
 
 .card-text:last-child {
-    margin-bottom: 0
+    margin-bottom: 0;
+    font-size: 0.85em;
 }
 
 .card-link:hover {
@@ -4656,7 +4657,7 @@ input[type="button"].btn-block {
 .badge {
     display: inline-block;
     padding: .25em .4em;
-    font-size: 75%;
+    font-size: 50%;
     font-weight: 700;
     line-height: 1;
     text-align: center;
