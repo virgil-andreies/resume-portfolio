@@ -7,11 +7,11 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "url": "git+https://github.com/virgil-andreies/resume-portfolio.git"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/virgil-andreies/resume-portfolio.git"
+    "type": "git"
   },
   "keywords": [
     "Virgil",
