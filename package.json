@@ -1,0 +1,32 @@
+{
+  "name": "resume-portfolio",
+  "version": "1.0.0",
+  "description": "My resume / portfolio",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d resume-portfolio"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/virgil-andreies/resume-portfolio.git"
+  },
+  "keywords": [
+    "Virgil",
+    "Andreies",
+    "resume",
+    "portfolio",
+    "HTML5",
+    "CSS3",
+    "JavaScript",
+    "jQuery"
+  ],
+  "author": "Virgil Andreies",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/virgil-andreies/resume-portfolio/issues"
+  },
+  "homepage": "https://virgil-andreies.github.io/resume-portfolio"
+}
