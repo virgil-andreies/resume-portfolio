@@ -244,6 +244,10 @@ ul.list-reset {
   font-weight: 300;
 }
 
+.skills-section {
+  background: #495e70;
+}
+
 .skills-section .top-skills .item {
   margin-bottom: 45px;
 }
