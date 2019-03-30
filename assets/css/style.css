@@ -380,9 +380,19 @@ ul.list-reset {
   left: 0;
   width: 100%;
   z-index: 100;
-  background: #58677c;
+  background: #143652;
   /* #313435; */
   /* rgb(128, 189, 189) */
+}
+
+.navbar-collapse.fixed {
+  position: fixed;
+  padding: 0.25rem 0.5rem;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  background: #143652;
 }
 
 /* ********************  Card flip  *********************** */
