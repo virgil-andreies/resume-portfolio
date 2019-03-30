@@ -398,6 +398,7 @@ ul.list-reset {
 /* ********************  Card flip  *********************** */
 .flip {
   -webkit-perspective: 800;
+  -moz-perspective: 800;
   perspective: 800;
   position: relative;
   text-align: center;
@@ -405,6 +406,8 @@ ul.list-reset {
 
 .flip .card.flipped {
   -webkit-transform: rotatey(-180deg);
+  -moz-transform: rotateY(-180deg);
+  -o-tranform: rotateY(-180deg);
   transform: rotatey(-180deg);
 }
 
@@ -412,8 +415,11 @@ ul.list-reset {
   width: auto;
   height: 320px;
   -webkit-transform-style: preserve-3d;
-  -webkit-transition: 0.5s;
+  -moz-transform-style: preserve-3d;
   transform-style: preserve-3d;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
   transition: 0.5s;
   align-items: center;
   background-color: #b0e0e6;
@@ -422,6 +428,7 @@ ul.list-reset {
 
 .flip .card .face {
   -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
   backface-visibility: hidden;
   z-index: 2;
 }
