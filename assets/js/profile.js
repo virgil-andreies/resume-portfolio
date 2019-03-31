@@ -13,26 +13,26 @@ $(document).ready(function() {
   });
 
   /* *************** Fixed page nav when scrolled *************** */
-  $(window).on("scroll resize load", function() {
-    $("#navigation").removeClass("fixed");
+  // $(window).on("scroll resize load", function() {
+  //   $("#navigation").removeClass("fixed");
 
-    var scrollTop = $(this).scrollTop();
-    var topDistance = $("#navigation").offset().top;
+  //   var scrollTop = $(this).scrollTop();
+  //   var topDistance = $("#navigation").offset().top;
 
-    console.log(scrollTop);
-    console.log(topDistance);
+  //   console.log(scrollTop);
+  //   console.log(topDistance);
 
-    //topDistance > scrollTop
+  //   //topDistance > scrollTop
 
-    if (window.pageYOffset < topDistance) {
-      $("#navigation").removeClass("fixed");
-      // sticky-page-nav
-      console.log("removed");
-    } else {
-      $("#navigation").addClass("fixed");
-      console.log("added");
-    }
-  });
+  //   if (window.pageYOffset < topDistance) {
+  //     $("#navigation").removeClass("fixed");
+  //     // sticky-page-nav
+  //     console.log("removed");
+  //   } else {
+  //     $("#navigation").addClass("fixed");
+  //     console.log("added");
+  //   }
+  // });
 
   ($nav = $("#navigation")),
     ($slideLine = $("#slide-line")),
