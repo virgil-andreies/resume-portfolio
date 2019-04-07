@@ -232,7 +232,7 @@ ul.list-reset {
 }
 
 .skills-section {
-  background: #54a2ebc0;
+  background: #355b7a;
 }
 
 .skills-section .top-skills .item {
@@ -463,6 +463,8 @@ ul.list-reset {
   text-align: center;
   /* border: 1px solid #f1f1f1; */
   perspective: 800; /* Remove this if you don't want the 3D effect */
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 /* This container is needed to position the front and back side */
@@ -493,7 +495,7 @@ ul.list-reset {
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
   /* background-color: #bbb; */
-  background-color: #a1c9eec0;
+  background-color: #f1f4f7dc;
   color: black;
 }
 
@@ -502,7 +504,7 @@ ul.list-reset {
   padding-top: 60px;
   padding-left: 15px;
   padding-right: 15px;
-  background-color: #a1c9eec0;
+  background-color: #f1f4f7dc;
   color: white;
   text-align: center;
   transform: rotateY(-180deg);
