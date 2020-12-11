@@ -1131,6 +1131,26 @@
 				<img class="profile-small d-inline-block mx-auto rounded-circle mb-2"
 					src="assets/images/profile_thumb.jpg" alt="">
 			</div>
+			<form id="contact-form" class="contact-form col-lg-8 mx-lg-auto" method="post" action="mailto:w1r6h1l@gmail.com" enctype="text/plain" novalidate="novalidate">
+				<h3 class="text-center mb-3">Contact</h3>
+				<div class="form-row">                                                           
+					<div class="form-group col-md-6">
+						<label class="sr-only" for="cname">Name</label>
+						<input type="text" class="form-control" id="cname" name="name" placeholder="Name" minlength="2" required="" aria-required="true">
+					</div>                    
+					<div class="form-group col-md-6">
+						<label class="sr-only" for="cemail">Email</label>
+						<input type="email" class="form-control" id="cemail" name="email" placeholder="Email" required="" aria-required="true">
+					</div>
+					<div class="form-group col-12">
+						<label class="sr-only" for="cmessage">Your message</label>
+						<textarea class="form-control" id="cmessage" name="message" placeholder="Enter your message" rows="10" required="" aria-required="true"></textarea>
+					</div>
+					 <div class="form-group col-12">
+						<button type="submit" class="btn btn-block btn-primary py-2">Send It</button>
+					</div>                           
+				</div><!--//form-row-->
+			</form>
 		<!--//container-->
 	</section>
 
