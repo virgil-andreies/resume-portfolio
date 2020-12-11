@@ -9558,6 +9558,7 @@ a.theme-btn-on-bg:active,
 
 .header-intro-resume .container {
   max-width: 1000px;
+  margin-top: 70px;
 }
 
 .download-resume {
@@ -9575,7 +9576,7 @@ a.theme-btn-on-bg:active,
 }
 
 .resume-header {
-  background: #434e5e;
+  background: #355b7a;
   color: rgba(255, 255, 255, 0.9);
   height: 220px;
 }

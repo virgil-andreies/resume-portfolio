@@ -235,6 +235,10 @@ ul.list-reset {
   background: #355b7a;
 }
 
+.skills-section-section {
+  background: #355b7a;
+}
+
 .skills-section .top-skills .item {
   margin-bottom: 45px;
 }
@@ -495,7 +499,7 @@ ul.list-reset {
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
   /* background-color: #bbb; */
-  background-color: #f1f4f7dc;
+  background-color: antiquewhite;
   color: black;
 }
 
@@ -504,8 +508,41 @@ ul.list-reset {
   padding-top: 60px;
   padding-left: 15px;
   padding-right: 15px;
-  background-color: #f1f4f7dc;
+  background-color: antiquewhite;
   color: white;
   text-align: center;
   transform: rotateY(-180deg);
 }
+
+/* .resume-container {
+  width: 100%;
+  margin-top: 50px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .resume-container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .resume-container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .resume-container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .resume-container {
+    max-width: 1140px;
+  }
+} */
