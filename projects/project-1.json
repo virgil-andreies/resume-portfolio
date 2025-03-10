@@ -1,0 +1,18 @@
+{
+    "projectName": "Multifinantare",
+    "projectInfo": { 
+        "client": "Multifinantare",
+        "site-link": "",
+        "type": "Backend, Frontend and Administration"
+    },
+    "projectDescription": "Multifinantare is a platform that offers financial services to individuals and companies. The platform is designed to be user-friendly and easy to use. It offers a wide range of financial products and services, including loans, credit cards, and insurance. The platform also provides tools and resources to help users manage their finances and make informed decisions about their financial future.",
+    "projectImage": "multifinantare.jpg",
+    "projectTechnologies" : ["MS T-SQL", "Entity Framework", "jQuery", "KO.js", "CSS", "JavaScript", "nopCommerce", "Bootstrap"],
+    "title": "Web App Development",
+    "tagline": "Project tagline goes here lorem ipsum dolor sit amet.",
+    "backgroundTitle": "Project Background",
+    "backgroundDescription": "Project summary goes here. Etiam rhoncus...",
+    "liveSiteUrl": "#",
+    "templateUrl": "#",
+    "templateName": "Bootstrap 4 admin template Appify"
+}
